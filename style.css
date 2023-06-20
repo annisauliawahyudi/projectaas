@@ -1,0 +1,115 @@
+        object {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .card-body {
+            margin: 20px 30px;
+        }
+
+        body {
+            background: url(img/bg.png) no-repeat center center fixed;
+            background-size: cover;
+            color: #807e7e;
+            background-color: #1E90FF;
+            width: 100%;
+
+        }
+
+
+        .teks {
+            height: 70px;
+            font-size: 10vw;
+            padding: 30px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .card-title {
+            color: #716B6B;
+            font-family: 'PP Pangram Sans';
+            
+        }
+
+        .card {
+            box-shadow: 35px 31px 16px -5px rgba(0, 0, 0, 0.13);
+            -webkit-box-shadow: 35px 31px 16px -5px rgba(0, 0, 0, 0.13);
+            -moz-box-shadow: 35px 31px 16px -5px rgba(0, 0, 0, 0.13);
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            height: 100vh;
+            padding-top: 50px;
+            padding-right: 50px;
+            
+        }
+
+        
+
+        /* Media queries untuk perangkat dengan lebar 768px atau lebih kecil */
+        @media (max-width: 768px) {
+            .teks {
+                font-size: 6vw;
+                padding: 10px;
+            }
+
+            .card-container {
+                justify-content: center;
+                padding: 50px;
+            }
+
+            .card {
+                width: 100%;
+            }
+
+            .card-body {
+                margin: 20px;
+            }
+
+            .d-grid {
+                margin-top: 20px;
+            }
+        }
+
+        /* Media queries untuk perangkat dengan lebar 768px atau lebih kecil */
+@media (max-width: 768px) {
+  .teks {
+    font-size: 6vw;
+    padding: 10px;
+  }
+
+  .card-container {
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-body {
+    margin: 20px;
+  }
+
+  .d-grid {
+    margin-top: 20px;
+  }
+}
+
+/* Media queries untuk perangkat dengan lebar 576px atau lebih kecil */
+@media (max-width: 576px) {
+  .card-container {
+    padding: 20px;
+  }
+
+  .card-body {
+    margin: 10px;
+  }
+}
